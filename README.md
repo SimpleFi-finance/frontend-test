@@ -6,7 +6,7 @@ This test aims to gauge your ability to work with streamed data (we get a lot of
 
 We would like you to use our api endpoints to get the positions of a user, and display a simple graph of the aggregation of the LP data received.
 
-You can find more about the endpoints and responses available here: **https://simplefi-finance.gitbook.io/indexer/ **
+You can find more about the endpoints and responses available here: https://simplefi-finance.gitbook.io/indexer/ 
 
 We have tried to keep this test as contained as possible, here it is!
 
