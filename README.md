@@ -4,11 +4,11 @@
 
 This test aims to gauge your ability to work with streamed data (we get a lot of data in the frontend). 
 
-We would like you to use our api endpoints to get the positions of a user, and display a simple graph of the aggregation of the LP data received.
+We would like you to use our api endpoints to get the positions of a user, and display a simple graph of the aggregation of the LP (liquidity pool) data received.
 
-You can find more about the endpoints and responses available here: https://simplefi-finance.gitbook.io/indexer/ 
+You can find more about the endpoints and responses available here: https://simplefi-finance.gitbook.io/indexer/. If you need to brush up on liquidity pools, [this is a good resource](https://www.gemini.com/cryptopedia/what-is-a-liquidity-pool-crypto-market-liquidity#section-how-do-crypto-liquidity-pools-work).
 
-We have tried to keep this test as contained as possible, here it is!
+We have tried to keep this test as contained as possible, and expect it shouldn't take you more than 3-4 hours. Here it is!
 
 1. Build a typescript react app avoiding the use of redux (context api is welcome) that aggregates some data and displays a graph as the data is received.
 2. Start an event stream between the React app and the api endpoint and use the "connect" endpoint to query the user data.
@@ -26,7 +26,7 @@ Thanks and good luck!!! We are very much looking forward to the awesome solution
 
 #### Notes
 
-If you get stuck or something is not working do not esitate to get in touch with a memeber of the team (Filippo is the best option for this). they will get you unstuck right away. We dont want you to lose time finding where the data is, if you cant find it or the stream is being rejected just get in touch! 
+If you get stuck or something is not working do not hesitate to get in touch with a member of the team (Filippo is the best option for this). They will get you unstuck right away. We dont want you to lose time finding where the data is, if you cant find it or the stream is being rejected just get in touch! 
 
 The docs for the api are being updated atm so you might notice some changes.  
 
