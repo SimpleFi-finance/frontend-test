@@ -12,7 +12,7 @@ We have tried to keep this test as contained as possible, here it is!
 
 1. Build a typescript react app avoiding the use of redux (context api is welcome) that aggregates some data and displays a graph as the data is received.
 2. Start an event stream between the React app and the api endpoint and use the "connect" endpoint to query the user data.
-3. Look for the LPs history timeline in the positions received (the history timeline goes from beginning of user position to today).
+3. Listen to the "userPosition" event and then look for the LPs history timeline in the positions received (the history timeline goes from beginning of user position to today).
 4. Aggregate the balance of the position for each history point (the balance of a user is a composition of the user balance and farms)
 5. To find the actual value of the balance you will have to divide the number found in point 4. by 10^x where x is the decimals specified in the outputToken field in the position details.
 6. aggregate the TVL (total value locked) of the user in each position in a single history timeline and display in a graph (should update as the data is streamed in)  
