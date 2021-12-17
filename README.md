@@ -8,6 +8,8 @@ We would like you to use our api endpoints to get the positions of a user, and d
 
 You can find more about the endpoints and responses available here: https://simplefi-finance.gitbook.io/indexer/. If you need to brush up on liquidity pools, [this is a good resource](https://www.gemini.com/cryptopedia/what-is-a-liquidity-pool-crypto-market-liquidity#section-how-do-crypto-liquidity-pools-work).
 
+You can use these test addresses to interact with the API: 0x0082ecb97de99d907b779625e8b3c45f1c151a60 and 0xed85af164d02b5eb2f10abedee9a7577e90a2ffb.
+
 We have tried to keep this test as contained as possible, and expect it shouldn't take you more than 3 hours. Here it is!
 
 1. Build a typescript react app avoiding the use of redux (context api is welcome) that aggregates some data and displays a graph as the data is received.
@@ -26,7 +28,7 @@ Thanks and good luck!!! We are very much looking forward to the awesome solution
 
 #### Notes
 
-If you get stuck or something is not working do not hesitate to get in touch with a member of the team (Filippo is the best option for this). They will get you unstuck right away. We dont want you to lose time finding where the data is, if you cant find it or the stream is being rejected just get in touch! 
+If you get stuck or something is not working do not hesitate to get in touch with Filippo on our [Discord](https://discord.gg/QybkuvnpKN) or email. He'll get you unstuck right away. We dont want you to lose time finding where the data is, if you cant find it or the stream is being rejected just get in touch! 
 
 The docs for the api are being updated atm so you might notice some changes.  
 
